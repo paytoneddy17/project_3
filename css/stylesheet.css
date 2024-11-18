@@ -1,0 +1,514 @@
+html {
+    background-color: #F9DBBD;
+}
+
+body {
+    margin:0;
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.madimi-one-regular {
+    font-family: "Madimi One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.topline, .bottomline {
+    height:20px;
+    background-color:#0D0628;
+}
+
+.buffer {
+    height:50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 100;
+    margin: auto;
+    background-color: #0D0628;
+    overflow: hidden;
+    border-radius: 50px;
+    width: 1000px;
+    height: 100px;
+}
+
+li {
+    float: left;
+    margin: 0 15px;
+}
+
+li a {
+    display: flex;
+    justify-content: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+}
+
+li a:hover {
+    background-color: #F9DBBD;
+    color: #0D0628;
+    border-radius: 50px;
+    outline-style: solid;
+    outline-color: #F9DBBD;
+    outline-width: 5px;
+}
+
+
+.home {
+    background-color: #6265A7;
+    border-radius: 50px;
+    margin-top: 17px;
+    width: 150px;
+}
+
+
+.about {
+    background-color: #D175C6;
+    border-radius: 50px;
+    margin-top: 17px;
+    width: 150px;
+}
+
+.style {
+    background-color: #D85A75;
+    border-radius: 50px;
+    margin-top: 17px;
+    width: 150px;
+}
+
+.works {
+    background-color: #FB9A74;
+    border-radius: 50px;
+    margin-top: 17px;
+    width: 150px;
+}
+
+.career {
+    background-color: #9DD9D2;
+    border-radius: 50px;
+    margin-top: 17px;
+    width: 150px;
+}
+
+.Lauren {
+    color: #0D0628;
+    font-size: 185px;
+    font-family: "Lilita One", sans-serif;
+    letter-spacing: 10px;
+    font-weight: 300;
+    padding-left: 110px;
+    margin-top: 25px;
+    margin-bottom: -50px;
+}
+
+.Hom {
+    color: #0D0628;
+    font-size: 185px;
+    font-family: "Lilita One", sans-serif;
+    letter-spacing: 10px;
+    font-weight: 300;
+    padding-left: 680px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: -50px;
+}
+
+h2 {
+    font-family: "Lilita One", sans-serif;
+    color: #0D0628;
+    padding-left: 680px;
+    font-size: 39px;
+    margin-top: -500px;
+}
+
+h1 {
+    color: #0D0628;
+    font-size: 185px;
+    font-family: "Lilita One", sans-serif;
+    letter-spacing: 10px;
+    font-weight: 300;
+    padding-left: 110px;
+    margin-top: 25px;
+    margin-bottom: -50px;
+}
+
+.home-paragraph {
+    font-family: "Madimi One", serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: #0D0628;
+    max-width: 500px;
+    font-size: 20px;
+    padding-left: 680px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.about-p {
+    font-family: "Madimi One", serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: #0D0628;
+    max-width: 500px;
+    font-size: 20px;
+    padding-left: 200px;
+    padding-top: -200px;
+    margin-top: -450px;
+    padding-bottom: 200px;
+}
+
+.early-life-p {
+    font-family: "Madimi One", serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: #0D0628;
+    max-width: 600px;
+    font-size: 20px;
+    padding-left: 500px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.background-p {
+    font-family: "Madimi One", serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: #0D0628;
+    max-width: 600px;
+    font-size: 20px;
+    padding-left: 500px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+h3 {
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+    font-size: 30px;
+    background-color: #D175C6;
+    border-radius: 50px;
+    margin-top: 17px;
+    width: 1000px;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* STYLE opening paragraph */
+.style-p {
+    font-family: "Madimi One", serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: #0D0628;
+    max-width: 800px;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/* STYLE subheading */
+.style-subhead {
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+    font-size: 30px;
+    background-color: #D85A75;
+    border-radius: 50px;
+    margin-top: 17px;
+    width: 1000px;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* STYLE inspiration section copy */
+.inspo-p {
+    font-family: "Madimi One", serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: #0D0628;
+    max-width: 300px;
+    font-size: 20px;
+    padding-left: 700px;
+    padding-top: 30px;
+    padding-bottom: 300px;
+    text-align: justify;
+}
+
+/* STYLE inspiration subsubheading */
+.personalexperiences {
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+    font-size: 24px;
+    border-style: solid;
+    border-color: #D85A75;
+    border-radius: 50px;
+    border-width: 5px;
+    width: 255px;
+    margin-left: 250px;
+    margin-top: -650px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    /*for the border box*/
+    padding-top: 10px;
+    /*for the border box*/
+    padding-bottom: 10px;
+    /*for the border box*/
+}
+
+/* STYLE inspiration subsubheading */
+.vintagepackaging {
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+    font-size: 24px;
+    border-style: solid;
+    border-color: #D85A75;
+    border-radius: 50px;
+    border-width: 5px;
+    width: 225px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    /*for the border box*/
+    padding-top: 10px;
+    /*for the border box*/
+    padding-bottom: 10px;
+    /*for the border box*/
+}
+
+/* STYLE inspiration subsubheading */
+.foundtype {
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+    font-size: 24px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #D85A75;
+    border-width: 5px;
+    width: 150px;
+    margin-left: 250px;
+    margin-bottom: 150px;
+    padding-left: 30px;
+    /*for the border box*/
+    padding-top: 10px;
+    /*for the border box*/
+    padding-bottom: 10px;
+    /*for the border box*/
+}
+
+/* STYLE who the influence is */
+.person {
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+    font-size: 24px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #D85A75;
+    border-width: 5px;
+    width: 700px;
+    margin-left: 250px;
+    margin-bottom: -77.5px;
+    padding-left: 30px;
+    /*for the border box*/
+    padding-top: 10px;
+    /*for the border box*/
+    padding-bottom: 10px;
+    /*for the border box*/
+}
+
+/* STYLE what the influence did */
+.what {
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+    font-size: 24px;
+    margin-left: 670px;
+    margin-top: -800;
+}
+
+/* STYLE quote about influences */
+.quote {
+    font-family: "Madimi One", serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: #0D0628;
+    max-width: 600px;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+/* works opening paragraph */
+.works-p {
+    font-family: "Madimi One", serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: #0D0628;
+    max-width: 800px;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/* notable clients subhead*/
+.clients-subhead {
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+    font-size: 30px;
+    background-color: #FB9A74;
+    border-radius: 50px;
+    margin-top: 17px;
+    width: 1000px;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* notable works subheading */
+.works-subhead {
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+    font-size: 30px;
+    background-color: #FB9A74;
+    border-radius: 50px;
+    margin-top: 200px;
+    width: 1000px;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* list of clients */
+.client-p1, .client-p2, .client-p3 {
+    font-family: "Madimi One", serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+}
+
+.client-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 30px;
+}
+
+
+.works-title {
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+    font-size: 24px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #FB9A74;
+    border-width: 5px;
+    width: 375px;
+    margin-left: 250px;
+    margin-bottom: 150px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.works-description {
+    font-family: "Madimi One", serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: #0D0628;
+    max-width: 425px;
+    font-size: 24px;
+    padding-left: 250px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    margin-top: -100px;
+    margin-bottom: 0;
+}
+
+.career-p {
+    font-family: "Madimi One", serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: #0D0628;
+    max-width: 500px;
+    font-size: 20px;
+    padding-left: 200px;
+    padding-top: -200px;
+    margin-top: -450px;
+    padding-bottom: 300px;
+}
+
+
+.client-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 175px;
+    padding-bottom: 35px;
+}
+
+.career-timeline {
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+    font-size: 30px;
+    background-color: #9DD9D2;
+    border-radius: 50px;
+    margin-top: 200px;
+    width: 1000px;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.achievements {
+    font-family: "Madimi One", serif;
+    color: #0D0628;
+    font-size: 24px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #9DD9D2;
+    border-width: 5px;
+    width: 165px;
+    margin-left: 250px;
+    margin-bottom: 150px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.timeline-list {
+    margin-left: 350px;
+    font-family: "Madimi One", serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: #0D0628;
+    font-size:20px;
+}
+
+.achievements-list {
+    margin-left: 350px;
+    font-family: "Madimi One", serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: #0D0628;
+    font-size:20px;
+    margin-top:-110px;
+    margin-bottom: 100px;
+}
+
